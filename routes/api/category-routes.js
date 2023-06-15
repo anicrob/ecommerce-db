@@ -23,7 +23,7 @@ router.get("/:id", async (req, res) => {
     });
 
     if (!CategoryData) {
-      res.status(404).json({ message: "No traveller found with this id!" });
+      res.status(404).json({ message: "No category found with this id!" });
       return;
     }
 
