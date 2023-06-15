@@ -21,18 +21,20 @@ Product.belongsTo(Category, {
 
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
-  foreignKey: 'reader_id',
+  foreignKey: 'product_id',
   through: {
     model: ProductTag
-  }
+  },
+  as: 'tag_data'
 });
  
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
-  foreignKey: 'reader_id',
+  foreignKey: 'tag_id',
   through: {
     model: ProductTag
-  } 
+  },
+  as: 'product_data'
 });
  
 module.exports = {
