@@ -7,7 +7,6 @@ Using Insomina or Postman, you can use the back end of an ecommerce database wit
 
 ## Table of Contents
 * [Installation](#installation)
-* [Usage](#usage)
 * [Contributing](#contribution)
 * [Links to Repo and Video](#link-to-repo-and-video)
 
