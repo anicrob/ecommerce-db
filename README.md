@@ -37,4 +37,5 @@ This project was created by anicrob.
 
 Link to Repo: https://github.com/anicrob/ecommerce-db
 
-Link to Video:
+Link to Video: https://github.com/anicrob/ecommerce-db/assets/127058697/fb58537a-3c97-4eca-8a7c-2a7bbb27551a
+
